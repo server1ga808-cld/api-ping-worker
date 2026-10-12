@@ -1,0 +1,6 @@
+name = "api-ping-worker"
+main = "src/index.js"
+compatibility_date = "2026-10-12"
+
+[triggers]
+crons = ["*/5 * * * *"]
