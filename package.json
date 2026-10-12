@@ -1,0 +1,14 @@
+{
+  "name": "api-ping-worker",
+  "version": "1.0.0",
+  "description": "Keeps Anikoto API and ToonStream Scraper awake with cron pings",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "^3.78.0"
+  }
+}
